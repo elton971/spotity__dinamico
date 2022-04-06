@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+<title>Spotity</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-wraper">
+            <div class="sidebar_logo">
+                <img src="img/logotipo-spotify.png" alt="" srcset="">
+                <p>FBeats</p>
+            </div><!--logotipo-->
+            <div class="sidebar_menu">
+                <a  class=" sidebar__menu__selecionado"href=""><i  class="fas fa-home"></i>Inicio</a>
+                <a href=""><i  class="fas fa-search"></i>Buscar</a>
+                <a href=""><i  class="fas fa-database"></i>Biblioteca</a>
+            </div><!-- sideBar Menu-->
+            <div class="sidebar_menu">
+                <p class="sidebar_menu_title">PlayList</p>
+                <div class="sidebar_menu_item">
+                    <div class="sidebar_menu_componete">
+                        +
+                    </div><!-- componete do criar playList-->
+                    <span>Criar PlayList</span>
+                </div><!-- sidebar menu item-->
+                <div class="sidebar_menu_item">
+                    <div class="sidebar_menu_componete">
+                        !
+                    </div><!-- componete do musicas curtidas-->
+                    <span>Musicas Curtidas</span>
+                </div><!-- sidebar menu item-->
+            </div><!-- sideBar Menu-->
+
+            <div class="sidebar__playlists">
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+            </div>
+            <div class="sidebar__playlists">
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+            </div>
+            <div class="sidebar__playlists">
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+            </div>
+            <div class="sidebar__playlists">
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+                <a href="">PlayList1</a>
+            </div><!-- playList-->
+        </div><!-- sideBar__wraper-->
+    </div><!-- sideBar-->
+
+
+
+    <div class="main">
+        <div class="main__wraper">
+            <div class="main__linha" id="main__linha">
+               
+            </div><!-- linha -->
+            
+        </div><!-- main_wraper -->
+    </div><!-- main-->
+
+
+
+    <div class="player">
+        <div class="player__artist">
+
+        </div>
+        <div class="player__control">
+            <div class="player_control_buttons">
+                <a href=""><i class="fas fa-backward"></i></a>
+                <a id="pauseBtn"  style="display: none;" href=""><i class="far fa-pause-circle"></i></a>
+                <a id="playBtn" href=""><i class="far fa-play-circle"></i></a>
+                <a href=""><i class="fas fa-forward"></i></a>
+            </div>
+            <div class="player_control_progress"  >
+                <div  class="player_control_progress__2" id="barra">
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <audio id="audioPlayer" controls=""></audio>
+
+    <script src="Js/all.min.js"></script><!-- importacao do js para os icons -->
+    <script src="Js/main.js"></script>
+</body>
+</html>
